@@ -1,0 +1,6 @@
+
+services:
+  web:
+    image:Abhaysoni16/test:1
+    ports:
+      - "9000:80"  # Notice the indentation under "ports"
